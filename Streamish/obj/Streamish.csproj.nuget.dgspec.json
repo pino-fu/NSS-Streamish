@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deser\\source\\repos\\Streamish\\Streamish\\Streamish.csproj": {}
+    "/Users/ben/workspace/backend/Streamish/Streamish/Streamish.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deser\\source\\repos\\Streamish\\Streamish\\Streamish.csproj": {
+    "/Users/ben/workspace/backend/Streamish/Streamish/Streamish.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deser\\source\\repos\\Streamish\\Streamish\\Streamish.csproj",
+        "projectUniqueName": "/Users/ben/workspace/backend/Streamish/Streamish/Streamish.csproj",
         "projectName": "Streamish",
-        "projectPath": "C:\\Users\\deser\\source\\repos\\Streamish\\Streamish\\Streamish.csproj",
-        "packagesPath": "C:\\Users\\deser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deser\\source\\repos\\Streamish\\Streamish\\obj\\",
+        "projectPath": "/Users/ben/workspace/backend/Streamish/Streamish/Streamish.csproj",
+        "packagesPath": "/Users/ben/.nuget/packages/",
+        "outputPath": "/Users/ben/workspace/backend/Streamish/Streamish/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\deser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ben/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +39,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
@@ -55,10 +58,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
